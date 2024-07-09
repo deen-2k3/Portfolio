@@ -1,0 +1,27 @@
+[
+    {
+      "key": 1,
+      "title": "MERN Event Planner",
+      "imageSrc": "project/event.png",
+      "description": "This is a project made with  React js,Node Js, Mongodb.",
+      "demo": "https://www.example.com",
+      "source": "https://github.com/deen-2k3/Event-Planning"
+    },
+    {
+      "key": 2,
+      "title": "MERN E-commerce",
+      "imageSrc": "project/hawker.jpg",
+      "description": "This is a project made with  React js JavaScript,Node js,Express Js, Mongodb .",
+      "demo": "https://www.example.com",
+      "source": "https://github.com/deen-2k3/Hawker-project"
+    },
+    {
+      "key": 3,
+      "title": "MERN Airbnb clone",
+      "imageSrc": "project/clone.png",
+      "description": "This is a project made with  ejs,JavaScript,Node js,express js, Mongodb.",
+      "demo": "https://find-your-place.onrender.com/listings",
+      "source": "https://github.com/deen-2k3/Wonderlust"
+    }
+   
+  ]

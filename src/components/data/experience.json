@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "role": "Web developement intern",
+      "organisation": "Spark Foundation",
+      "startDate": "July, 2023",
+      "endDate": "Aug,2023",
+      "location": "CA,United State",
+      "experiences": [
+        "Worked on Api"
+        
+      ],
+      "imageSrc": "company/google.png"
+    }
+     ]
