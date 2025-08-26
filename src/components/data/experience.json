@@ -1,13 +1,13 @@
 [
     {
       "id": 1,
-      "role": "Web developement intern",
-      "organisation": "Spark Foundation",
-      "startDate": "July, 2023",
-      "endDate": "Aug,2023",
-      "location": "CA,United State",
+      "role": "Trainee Technical Consultant",
+      "organisation": "Acxiom Consulting Pvt. Ltd.",
+      "startDate": "Feb, 2025",
+      "endDate": "Currenlty Working",
+      "location": "Noida,India",
       "experiences": [
-        "Worked on Api"
+        "Working on Microsoft Dynamic 365 Business Central"
         
       ],
       "imageSrc": "company/acxiom.png"
