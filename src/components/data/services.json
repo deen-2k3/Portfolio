@@ -1,0 +1,17 @@
+[
+  {
+    "title": "MERN Web Development",
+    "description": "Full-stack web apps built with React, Node.js, Express and MongoDB — responsive, fast and tailored to your business.",
+    "imageSrc": "skills/webdev.svg"
+  },
+  {
+    "title": "Business Central Consulting",
+    "description": "AL extensions, customizations and workflow automation for Microsoft Dynamics 365 Business Central.",
+    "imageSrc": "skills/businesscentral.svg"
+  },
+  {
+    "title": "Freelance Support",
+    "description": "Ongoing freelance development — new features, bug fixes and ERP/web integrations for growing businesses.",
+    "imageSrc": "skills/freelancing.svg"
+  }
+]
