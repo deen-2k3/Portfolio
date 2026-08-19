@@ -33,7 +33,27 @@
       "imageSrc": "skills/figma.png"
     },
     {
-      "title":"AL",
+      "title":"AL Language / Extensions",
       "imageSrc":"skills/Al.png"
+    },
+    {
+      "title": "Web Development",
+      "imageSrc": "skills/webdev.svg"
+    },
+    {
+      "title": "Dynamics 365 Business Central",
+      "imageSrc": "skills/businesscentral.svg"
+    },
+    {
+      "title": "Power BI",
+      "imageSrc": "skills/powerbi.svg"
+    },
+    {
+      "title": "Power Automate",
+      "imageSrc": "skills/powerautomate.svg"
+    },
+    {
+      "title": "Freelancing",
+      "imageSrc": "skills/freelancing.svg"
     }
   ]

@@ -12,6 +12,7 @@ const Home = () => {
         "Welcome to my profile",
         "My Name is Deen Bandhu Singh",
         "I'm a MERN Stack Developer",
+        "Freelance Business Central & Web Developer",
         "Problem Solver",
       ],
       typeSpeed: 50,
