@@ -4,7 +4,6 @@
       "title": "Voyager Vibe",
       "imageSrc": "project/voyagervibe.jpg",
       "description": "A travel discovery platform — browse destinations, get custom itineraries, and plan trips with a full booking-style experience.",
-      "demo": "https://voyagervibe.in",
-      "source": "https://github.com/deen-2k3/voyager-vibe"
+      "demo": "https://voyagervibe.in"
     }
   ]

@@ -384,16 +384,27 @@ h1, h2, h3, h4 {
 
 .project-item {
   border-radius: var(--radius-lg);
-  padding: 32px;
+  padding: 24px;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 24px;
+  gap: 16px;
+}
+
+.project-item .laptop-frame {
+  max-width: 340px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 @media (min-width: 760px) {
   .project-item {
     grid-template-columns: 1.1fr 1fr;
     align-items: center;
+    padding: 32px;
+    gap: 24px;
+  }
+  .project-item .laptop-frame {
+    max-width: none;
   }
   .project-item.reverse {
     direction: rtl;
@@ -438,14 +449,14 @@ h1, h2, h3, h4 {
 
 .project-item h3 {
   font-size: 1.4rem;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .project-item p {
   color: var(--muted);
   font-size: 0.95rem;
-  line-height: 1.6;
-  margin: 0 0 20px;
+  line-height: 1.5;
+  margin: 0 0 16px;
 }
 
 .project-item .links {

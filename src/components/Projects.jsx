@@ -27,9 +27,6 @@ export default function Projects() {
                 <a href={data.demo} target="_blank" rel="noopener noreferrer" className="pill-btn small">
                   Demo
                 </a>
-                <a href={data.source} target="_blank" rel="noopener noreferrer" className="pill-btn small outline">
-                  Code
-                </a>
               </div>
             </div>
           </div>
