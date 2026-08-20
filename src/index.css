@@ -636,8 +636,8 @@ h1, h2, h3, h4 {
 /* ChatBot */
 .chatbot-fab {
   position: fixed;
-  left: 24px;
-  bottom: 24px;
+  right: 24px;
+  bottom: 92px;
   z-index: 40;
   width: 56px;
   height: 56px;
@@ -660,8 +660,8 @@ h1, h2, h3, h4 {
 
 .chatbot-panel {
   position: fixed;
-  left: 24px;
-  bottom: 92px;
+  right: 24px;
+  bottom: 160px;
   z-index: 40;
   width: min(340px, calc(100vw - 48px));
   max-height: min(480px, calc(100vh - 140px));
