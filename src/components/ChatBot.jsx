@@ -7,14 +7,6 @@ import services from "./data/services.json";
 
 const EMAIL = "deenbandhusingh335@gmail.com";
 
-const QUICK_REPLIES = [
-  "What are your skills?",
-  "Tell me about your experience",
-  "What services do you offer?",
-  "Show me your projects",
-  "How can I contact you?",
-];
-
 function buildReply(rawInput) {
   const input = rawInput.toLowerCase();
 
@@ -76,7 +68,7 @@ export default function ChatBot() {
   const [messages, setMessages] = useState([
     {
       from: "bot",
-      text: "Hi! I'm a quick FAQ bot for Deen's portfolio. Ask me anything, or tap a suggestion below.",
+      text: "Hi! I'm a quick FAQ bot for Deen's portfolio. Ask me about his skills, experience, services, projects, or how to get in touch.",
     },
   ]);
   const bodyRef = useRef(null);
@@ -129,14 +121,6 @@ export default function ChatBot() {
                   </span>
                 ))}
               </div>
-            ))}
-          </div>
-
-          <div className="chatbot-quick-replies">
-            {QUICK_REPLIES.map((q) => (
-              <button type="button" key={q} onClick={() => send(q)}>
-                {q}
-              </button>
             ))}
           </div>
 
