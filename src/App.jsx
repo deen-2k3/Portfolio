@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Services from "./components/Services";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
 import FeedbackFab from "./components/FeedbackFab";
-import Contact from './components/Contact'
+import HomePage from "./pages/HomePage";
+import FeedbackPage from "./pages/FeedbackPage";
 import Aos from "aos";
 import "aos/dist/aos.css"
 
@@ -19,12 +16,10 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Home />
-      <Services />
-      <Projects />
-      <Skills />
-      <Experience />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/feedback" element={<FeedbackPage />} />
+      </Routes>
       <FeedbackFab />
     </>
   );

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -7,12 +8,12 @@ export default function Navbar() {
       data-aos="fade-down"
       data-aos-duration="800"
     >
-      <a href="#home" className="left nav_items">Deen Bandhu..</a>
+      <Link to="/#home" className="left nav_items">Deen Bandhu..</Link>
       <div className="right">
-        <a href="#projects" className="nav_items">Projects</a>
-        <a href="#services" className="nav_items">Services</a>
-        <a href="#skills" className="nav_items">Skills</a>
-        <a href="#contact" className="pill-btn small">Let's Talk</a>
+        <Link to="/#projects" className="nav_items">Projects</Link>
+        <Link to="/#services" className="nav_items">Services</Link>
+        <Link to="/#skills" className="nav_items">Skills</Link>
+        <Link to="/#contact" className="pill-btn small">Let's Talk</Link>
       </div>
     </div>
   )

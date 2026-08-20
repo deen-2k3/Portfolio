@@ -1,15 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaCommentDots } from "react-icons/fa";
 
 export default function FeedbackFab() {
   return (
-    <a
-      href="mailto:deenbandhusingh335@gmail.com?subject=Feedback"
-      className="feedback-fab"
-      aria-label="Give feedback"
-    >
+    <Link to="/feedback" className="feedback-fab" aria-label="Give feedback">
       <FaCommentDots />
       <span>Feedback</span>
-    </a>
+    </Link>
   );
 }

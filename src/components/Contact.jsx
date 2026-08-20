@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FaInstagram, FaLinkedin, FaTwitter, FaGithub, FaFacebook } from "react-icons/fa";
 
 export default function Contact() {
@@ -39,6 +40,7 @@ export default function Contact() {
           <a href="#home">Home</a>
           <a href="#projects">Projects</a>
           <a href="#services">Services</a>
+          <Link to="/feedback">Feedback</Link>
           <a href="#contact">Contact</a>
         </div>
         <span>© {new Date().getFullYear()} Deen Bandhu Singh</span>
