@@ -19,6 +19,13 @@ export default function Services() {
             </div>
             <h3>{s.title}</h3>
             <p>{s.description}</p>
+            {s.modules && (
+              <div className="module-tags">
+                {s.modules.map((m) => (
+                  <span className="module-tag" key={m}>{m}</span>
+                ))}
+              </div>
+            )}
           </div>
         ))}
       </div>

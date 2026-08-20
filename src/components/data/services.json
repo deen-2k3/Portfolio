@@ -7,7 +7,19 @@
   {
     "title": "Business Central Consulting",
     "description": "AL extensions and technical customizations plus functional support — configuration, workflows and end-user training for Microsoft Dynamics 365 Business Central.",
-    "imageSrc": "skills/businesscentral.svg"
+    "imageSrc": "skills/businesscentral.svg",
+    "modules": [
+      "Financial Management",
+      "Sales & Marketing",
+      "Purchasing",
+      "Inventory Management",
+      "Warehouse Management",
+      "Manufacturing",
+      "Project Management",
+      "Service Management",
+      "Fixed Assets",
+      "Human Resources"
+    ]
   },
   {
     "title": "Freelance Support",

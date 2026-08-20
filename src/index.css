@@ -288,6 +288,22 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
+.module-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.module-tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--fg);
+}
+
 .service-card:nth-child(3n+1) { background: var(--pink); }
 .service-card:nth-child(3n+2) { background: var(--sky); }
 .service-card:nth-child(3n+3) { background: var(--mint); }
